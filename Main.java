@@ -17,7 +17,7 @@ public class Main {
         Email email1 = new Email(firstName, lastName, department);
         int option = 0;
         do {
-            System.out.println("----------\nEnter your choice\n1. Show Info\n2. Login\n3. Change password\n4. Change department\n5. Set Alternative mail\n6. Store data in file\n7. Show data from file\n8. Exit");
+            System.out.println("----------\nEnter your choice\n1. Show Info\n2. Sign in\n3. Change password\n4. Change department\n5. Set Alternative mail\n6. Store data in file\n7. Show data from file\n8. Exit");
             option = input.nextInt();
             switch (option) {
                 case 1: 
