@@ -118,7 +118,7 @@ public class Email {
         return this.firstName.toLowerCase() + "." + this.lastName.toLowerCase() + "@" + this.department.toLowerCase() + ".company.com";
     }
 
-    // Display info
+    // Display information
     public void getInfo() {
         System.out.println("----------");
         System.out.println("Name: " + this.firstName + " " + this.lastName);
