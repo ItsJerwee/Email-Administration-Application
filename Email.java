@@ -108,7 +108,7 @@ public class Email {
 
     // Change alternative email
     public void changeAlternativeEmail() {
-        System.out.println("Enter new alternative email: ");
+        System.out.print("----------\nEnter new alternative email: ");
         this.alternativeEmail = input.next();
         System.out.println("Alternative email is set successfully");
     }
